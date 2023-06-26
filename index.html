@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+    <link rel="stylesheet" href="/css/index.css" />
+    <title>CN-VR Homepage</title>
+  </head>
+  <body>
+    <!-- intro -->
+    <div class="container mt-5">
+      <div class="row justify-center">
+        <div class="col-12-xs col-5-md">
+          <h2>
+            <div class="font-xxl">Welcome</div>
+            <div class="font-xxl text-secondary">CNS-VR</div>
+          </h2>
+          <p class="text-gray mt-2 mb-3">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </p>
+          <a
+            href="#work"
+            class="btn-outlined-secondary text-secondary text-hover-white"
+            >View Our Work</a
+          >
+        </div>
+        <div class="col-12-xs col-5-md">
+          <img src="/img/laptop.svg" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <!-- work section -->
+    <section id="work" class="mt-5">
+      <div class="container">
+        <h2 class="mb-2">Choose Building</h2>
+        <div id="cards-container" class="row gap-2"></div>
+        <div class="row justify-center mt-2 mb-3">
+          <button class="btn-secondary text-white font-md">View All</button>
+        </div>
+      </div>
+    </section>
+    <script type="module">
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/9.23.0/firebase-app.js";
+      import { getAuth } from "https://www.gstatic.com/firebasejs/9.23.0/firebase-auth.js";
+      import {
+        getFirestore,
+        collection,
+        query,
+        onSnapshot,
+        orderBy,
+      } from "https://www.gstatic.com/firebasejs/9.23.0/firebase-firestore.js";
+      const firebaseConfig = {
+        apiKey: "AIzaSyByUMrb32XM9dFUK1sMp_8W6hEm8PnF49s",
+        authDomain: "customized-navigation-system.firebaseapp.com",
+        projectId: "customized-navigation-system",
+        storageBucket: "customized-navigation-system.appspot.com",
+        messagingSenderId: "3696229373",
+        appId: "1:3696229373:web:a1268fd804d7c55160f794",
+      };
+      const app = initializeApp(firebaseConfig);
+      const db = getFirestore(app);
+      const colRef = collection(
+        db,
+        "Locations",
+        "Adama Science And Technology",
+        "BuildingsData"
+      );
+      const queuedRef = query(colRef, orderBy("buildingNumber"));
+      const unsubscribe = onSnapshot(queuedRef, (snapshot) => {
+        let data = [];
+        snapshot.docs.forEach((doc) => {
+          doc.data().url && data.push({ ...doc.data(), id: doc.id });
+        });
+        const dataEvent = new CustomEvent("dataReceived", { detail: data });
+        window.dispatchEvent(dataEvent);
+      });
+    </script>
+    <script src="./script/script.js"></script>
+  </body>
+</html>
