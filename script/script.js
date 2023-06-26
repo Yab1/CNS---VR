@@ -8,7 +8,6 @@ let cards = "";
 setTimeout(() => {
   buildingData.forEach((building) => {
     let link = building.buildingName.split(" ")[0];
-    console.log(link);
     const card = `
           <div class="col-12-xs col-6-md col-6-lg">
             <div class="card p-0">
