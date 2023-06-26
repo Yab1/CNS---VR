@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+Sure! Here's an example README file for the CNS-VR website that showcases panoramic interactive pictures of different locations:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# CN-VR (Customized Navigation System Virtual Reality)
 
-## Available Scripts
+Welcome to CN-VR, a website that provides a virtual reality experience through panoramic interactive pictures of various locations. Explore different places and navigate between scenes to immerse yourself in a virtual environment.
 
-In the project directory, you can run:
+## Usage
 
-### `npm start`
+1. Open the index.html file in a web browser.
+2. You will be presented with a panoramic view of the "Central Engineering Library" as the default scene.
+3. Use your mouse or touchpad to navigate around the scene. Click and drag to change the view.
+4. Interact with the hotspots within the scene. Hotspots are clickable areas that allow you to move to another scene or perform an action.
+5. Click on the "Go Inside" hotspot to move to the "inside" scene, which represents the interior of the Central Engineering Library.
+6. In the "inside" scene, you can explore the surroundings and click on the "Go Out Side" hotspot to return to the "streetView" scene.
+7. Enjoy the immersive virtual reality experience provided by CN-VR.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Interactive panoramic scenes: Move and explore the virtual environment using mouse or touchpad controls.
+- Scene navigation: Transition between different scenes by clicking on hotspots.
+- Auto-rotation: The default scene automatically rotates at a slow pace to provide a dynamic viewing experience.
+- Scene information: Each scene provides a title for context and an image representing the location.
+- Customizable scenes: You can add or modify scenes by editing the JavaScript code.
 
-### `npm test`
+## Requirements
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Modern web browser with JavaScript support
 
-### `npm run build`
+## Contributing
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Contributions are welcome! If you have any ideas, suggestions, or improvements, feel free to open an issue or submit a pull request.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## License
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for more information.
 
-### `npm run eject`
+## Acknowledgements
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+CNS-VR makes use of the following libraries:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- [Pannellum](https://pannellum.org/) - A panoramic image viewer for the web.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Contact
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+For any inquiries or support, please contact us at [Yeabsera](yabilisanu@gmail.com).
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Thank you for using CN-VR! Explore the virtual reality experience and discover fascinating locations from the comfort of your own device.
