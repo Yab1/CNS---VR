@@ -33,7 +33,7 @@ async function getBuildings() {
           <div class="col-12-xs col-5-md col-4-lg">
             <div class="card p-0">
               <h3 class="card-title m-1">
-              <a href="windows/${link}/${link}.html">
+              <a href="../windows/${link}/${link}.html">
               ${building.buildingName}
               </a>
               </h3>
