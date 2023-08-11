@@ -30,14 +30,16 @@ async function getBuildings() {
     buildingData.forEach((building) => {
       let link = building.buildingName.split(" ")[0];
       const card = `
-          <div class="col-12-xs col-12-xs col-5-md col-4-lg">
+          <div class="col-12-xs col-5-md col-4-lg">
             <div class="card p-0">
               <h3 class="card-title m-1">
               <a href="windows/${link}/${link}.html">
               ${building.buildingName}
               </a>
               </h3>
-              <img src="../img/panorama-icon-2.jpg" alt=""  id='clickableImg'/>
+              <a href="../windows/${link}/${link}.html">
+                <img src="../img/panorama-icon-2.jpg" alt=""  id="clickableImg" class="pointer-event-none"/>
+              </a>
             </div>
           </div>
           `;
