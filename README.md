@@ -1,6 +1,6 @@
-# WayFinderPlus-VR - Seamless Indoor Navigation using Panoramic Images
+# WayFinderPlus-VR
 
-![WayFinderPlus-VR Logo]() <!-- Place your logo image here -->
+![WayFinderPlus-VR Logo](https://github.com/Yab1/WayFinderPlus-VR/blob/main/favicon-32x32.png) <!-- Place your logo image here -->
 
 Welcome to WayFinderPlus-VR, your immersive indoor navigation solution that leverages panoramic images to provide a unique and engaging navigation experience. Navigate indoor spaces effortlessly using a virtual reality environment, allowing you to explore and find your way with ease.
 
@@ -35,8 +35,8 @@ WayFinderPlus-VR is an extension of the WayFinderPlus project, offering a virtua
 
 <table>
   <tr>
-    <td><img src="" alt="Screenshot 1" width="400"/></td>
-    <td><img src="" alt="Screenshot 2" width="400"/></td>
+    <td><img src="https://github.com/Yab1/WayFinderPlus-VR/blob/main/assets/screenshot1.png" alt="Screenshot 1" width="400"/></td>
+    <td><img src="https://github.com/Yab1/WayFinderPlus-VR/blob/main/assets/screenshot2.png" alt="Screenshot 2" width="400"/></td>
   </tr>
 </table>
 
