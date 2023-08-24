@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
         title: "R5",
         yaw: -50,
         pitch: 0,
-        hfov: 105,
+        hfov: 100,
         type: "equirectangular",
         panorama: "../../assets/S507-class.jpg",
         hotSpots: [
