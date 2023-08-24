@@ -1,16 +1,19 @@
 {
+  "homepage": "https://yab1.github.io/WayFinderPlus-VR",
   "name": "way_finder_plus_vr",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack --mode=production"
+    "build": "webpack --mode=production",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "gh-pages": "^6.0.0",
     "gulp": "^4.0.2",
     "gulp-purgecss": "^5.0.0",
     "gulp-sass": "^5.1.0",

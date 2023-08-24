@@ -1,4 +1,4 @@
-ocument.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", () => {
   pannellum.viewer("panorama", {
     default: {
       firstScene: "streetView",
@@ -17,8 +17,8 @@ ocument.addEventListener("DOMContentLoaded", () => {
         panorama: "../../assets/B507-class.jpg",
         hotSpots: [
           {
-            yaw: -104,
-            pitch: 6,
+            yaw: -28,
+            pitch: 3,
             type: "scene",
             text: "Room 5",
             sceneId: "R5",
@@ -35,7 +35,7 @@ ocument.addEventListener("DOMContentLoaded", () => {
         panorama: "../../assets/S507-class.jpg",
         hotSpots: [
           {
-            yaw: 112,
+            yaw: -125,
             pitch: -0.6,
             type: "scene",
             text: "Go Out Side",
