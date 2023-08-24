@@ -1,51 +1,56 @@
-# WayFinderPlus-VR
+# WayFinderPlus VR - Immersive Indoor Navigation with Panoramic Images
 
-![WayFinderPlus-VR Logo](https://github.com/Yab1/WayFinderPlus-VR/blob/main/favicon-32x32.png) <!-- Place your logo image here -->
+![WayFinderPlus VR Logo](https://github.com/Yab1/WayfinderPlus-VR/blob/main/src/assets/WayfinderPlus-VR%20Logo.png)
 
-Welcome to WayFinderPlus-VR, your immersive indoor navigation solution that leverages panoramic images to provide a unique and engaging navigation experience. Navigate indoor spaces effortlessly using a virtual reality environment, allowing you to explore and find your way with ease.
+Welcome to WayFinderPlus VR, your immersive solution for indoor navigation using panoramic images. Step into a new dimension of navigation with stunning 360-degree views, helping you find your way through complex indoor spaces with ease.
 
 ## Table of Contents
 
-- [About WayFinderPlus-VR](#about-wayfinderplus-vr)
+- [About WayFinderPlus VR](#about-wayfinderplus-vr)
 - [Features](#features)
 - [Usage](#usage)
 - [Screenshots](#screenshots)
 - [Contributing](#contributing)
 
-## About WayFinderPlus-VR
+## About WayFinderPlus VR
 
-WayFinderPlus-VR is an extension of the WayFinderPlus project, offering a virtual reality-based indoor navigation experience. By using panoramic images, users can virtually explore indoor areas and receive accurate navigation guidance, enhancing their navigation experience within complex spaces.
+WayFinderPlus VR is a revolutionary indoor navigation experience that leverages panoramic images to guide users through complex indoor environments. It provides a visually rich and intuitive way to navigate shopping malls, airports, museums, and more.
 
 ## Features
 
-- Immersive indoor navigation using panoramic images.
-- Intuitive virtual reality environment for exploration.
-- Accurate turn-by-turn directions for various indoor locations.
-- Seamlessly integrated with the WayFinderPlus ecosystem.
-- Enhances indoor navigation experience for users.
+- Navigate indoor spaces with panoramic images.
+- Seamless transition between different locations.
+- Interactive hotspots for points of interest.
+- Realistic, immersive navigation experience.
 
 ## Usage
 
-1. Visit the WayFinderPlus-VR section within the [WayFinderPlus website](https://your-wayfinderplus-website.com).
-2. Choose the indoor location you want to navigate.
-3. Enter your starting point and destination.
-4. Experience an immersive virtual reality navigation environment.
+1. Access [WayFinderPlus VR](https://way-finder-plus-vr.vercel.app/) for an immersive indoor navigation experience.
+2. Choose a panoramic image from the available options.
+3. Explore different locations by clicking and dragging the view.
+4. Interact with hotspots to discover points of interest and get directions.
+5. Experience a new way to navigate indoor spaces using panoramic images.
+6. Configure outdoor navigation settings for enhanced user experience with [WayFinderPlus]().
+7. Customize VR navigation preferences to match your needs and explore the outdoor navigation capabilities of [WayFinderPlus](https://way-finder-plus.vercel.app/).
 
 ## Screenshots
 
 <table>
   <tr>
-    <td><img src="https://github.com/Yab1/WayFinderPlus-VR/blob/main/assets/screenshot1.png" alt="Screenshot 1" width="400"/></td>
-    <td><img src="https://github.com/Yab1/WayFinderPlus-VR/blob/main/assets/screenshot2.png" alt="Screenshot 2" width="400"/></td>
+    <img src="https://github.com/Yab1/WayFinderPlus-VR/blob/main/assets/screenshot1.png" alt="Home page" width="100%"/>
+  </tr>
+  <tr>
+    <img src="https://github.com/Yab1/WayFinderPlus-VR/blob/main/assets/screenshot2.png" alt="Pananorma" width="100%"/>
   </tr>
 </table>
 
 ## Contributing
 
-Contributions are welcome! If you'd like to enhance WayFinderPlus-VR or add new features, feel free to fork the repository, create a new branch, and submit a pull request. You can also share your ideas or report issues through the GitHub issue tracker.
+Contributions are welcome! If you'd like to enhance WayFinderPlus VR or suggest new features, feel free to fork the repository, create a new branch, and submit a pull request. You can also share your ideas or report issues through the GitHub issue tracker.
 
 ---
 
-Visit WayFinderPlus [Live Demo]()  
+Visit WayFinderPlus [Live Demo]()
+
 Connect with me:  
-Follow me on [LinkedIn](https://www.linkedin.com/in/your-profile/) | Check out my [GitHub](https://github.com/your-username) repository
+Visit my website at [Yeabsera](https://yeabsera-girxkocyp-yab1.vercel.app) | Follow me on [LinkedIn](https://www.linkedin.com/in/yeabsera-lisanework-7570981ba/) | Check out my [GitHub](https://github.com/Yab1) repositories
