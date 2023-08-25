@@ -6,7 +6,6 @@ module.exports = {
   mode: "development",
   entry: {
     main: "./src/index.js",
-    amphi: "./windows/Amphi/Amphi.html",
   },
   output: {
     path: path.resolve(__dirname, "dist"),
@@ -15,10 +14,7 @@ module.exports = {
   plugins: [
     new Dotenv(),
     new CopyPlugin({
-      patterns: [
-        { from: "src/windows/Amphi", to: "windows/Amphi" },
-        // ... other patterns
-      ],
+      patterns: [{ from: "windows", to: "windows" }],
     }),
   ],
   watch: true,
