@@ -38,7 +38,7 @@ async function getBuildings() {
       const cardTitle = document.createElement("h3");
       cardTitle.className = "card-title m-1";
       const cardTitleLink = document.createElement("a");
-      cardTitleLink.href = `../windows/${link}/${link}.html`;
+      cardTitleLink.href = `/WayFinderPlus-VR/windows/${link}/${link}.html`;
       cardTitleLink.textContent = building.buildingName;
       cardTitle.appendChild(cardTitleLink);
 
