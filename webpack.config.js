@@ -14,7 +14,10 @@ module.exports = {
   plugins: [
     new Dotenv(),
     new CopyPlugin({
-      patterns: [{ from: "windows", to: "windows" }],
+      patterns: [
+        { from: "windows", to: "windows" },
+        { from: "assets", to: "assets" },
+      ],
     }),
   ],
   watch: true,
