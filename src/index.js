@@ -43,7 +43,7 @@ async function getBuildings() {
       cardTitle.appendChild(cardTitleLink);
 
       const imgLink = document.createElement("a");
-      imgLink.href = `../windows/${link}/${link}.html`;
+      imgLink.href = `/WayFinderPlus-VR/windows/windows/${link}/${link}.html`;
       const imgElement = document.createElement("img");
       imgElement.src = "img/panorama-icon-2.jpg";
       imgElement.alt = "panorama-icon";
