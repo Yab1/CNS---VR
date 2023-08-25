@@ -24,29 +24,39 @@ async function getBuildings() {
     const buildingSnapshot = await getDocs(buildRef);
     const buildingList = buildingSnapshot.docs.map((doc) => doc.data());
     const container = document.querySelector("#cards-container");
-
-    let cards = "";
     const buildingData = buildingList.filter((building) => building.url !== "");
+
     buildingData.forEach((building) => {
       let link = building.buildingName.split(" ")[0];
-      const card = `
-          <div class="col-12-xs col-5-md col-4-lg">
-            <div class="card p-0">
-              <h3 class="card-title m-1">
-              <a href="../windows/${link}/${link}.html">
-              ${building.buildingName}
-              </a>
-              </h3>
-              <a href="../windows/${link}/${link}.html">
-                <img src="../img/panorama-icon-2.jpg" alt=""  id="clickableImg" class="pointer-event-none"/>
-              </a>
-            </div>
-          </div>
-          `;
-      cards += card;
-    });
 
-    container.innerHTML = cards;
+      const cardContainer = document.createElement("div");
+      cardContainer.className = "col-12-xs col-5-md col-4-lg";
+
+      const cardDiv = document.createElement("div");
+      cardDiv.className = "card p-0";
+
+      const cardTitle = document.createElement("h3");
+      cardTitle.className = "card-title m-1";
+      const cardTitleLink = document.createElement("a");
+      cardTitleLink.href = `../windows/${link}/${link}.html`;
+      cardTitleLink.textContent = building.buildingName;
+      cardTitle.appendChild(cardTitleLink);
+
+      const imgLink = document.createElement("a");
+      imgLink.href = `../windows/${link}/${link}.html`;
+      const imgElement = document.createElement("img");
+      imgElement.src = "img/panorama-icon-2.jpg";
+      imgElement.alt = "panorama-icon";
+      imgElement.className = "pointer-event-none";
+      imgLink.appendChild(imgElement);
+
+      cardDiv.appendChild(cardTitle);
+      cardDiv.appendChild(imgLink);
+
+      cardContainer.appendChild(cardDiv);
+
+      container.appendChild(cardContainer);
+    });
     return buildingList;
   } catch (error) {
     alert(error.message);
